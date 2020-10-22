@@ -1,0 +1,27 @@
+.menu-sub {
+  list-style-type: none;
+}
+.abc {
+  margin-left: 20px;
+}
+.menu-item {
+  display: inline;
+}
+.header {
+  background-color: cornsilk;
+}
+.footer {
+  background-color: cornsilk;
+}
+
+h1 {
+  text-align: center;
+}
+.main {
+  background-color: darkgray;
+}
+.menu-item a {
+  margin-left: 40px;
+  font-weight: bold;
+  text-decoration: none;
+}
