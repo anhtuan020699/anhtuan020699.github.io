@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+table
+{
+    border-collapse: collapse;
+}
+table,tr,th,td
+{
+    border :1px solid red;
+}
+th,td
+{
+    width: 100px;
+}
+tbody tr:nth-child(n)
+{
+    background-color: pink;
+}
+input{
+    width:100px;
+    height:20px ;
+    
+}
+input :valid{border:3px solid green;}
