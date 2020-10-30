@@ -1,0 +1,9 @@
+/* style cho menu to */
+.menu{
+    list-style: none;
+    padding: 0;
+}
+.menu_iteam
+{
+    display: inline-block;
+}
