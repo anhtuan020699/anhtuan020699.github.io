@@ -19,7 +19,7 @@ div.group {
   color: black;
 }
 input::placeholder {
-  opacity: 0;
+  opacity: 1;
 }
 input:not(:placeholder-shown) + label {
   top: -20px;
