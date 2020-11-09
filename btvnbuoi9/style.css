@@ -1,0 +1,12 @@
+header
+{
+    display: flex;
+}
+.logo-menu,
+{
+    list-style: none;
+}
+.menu ul li
+{
+    display: inline;
+}

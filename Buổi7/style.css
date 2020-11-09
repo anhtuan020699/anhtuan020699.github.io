@@ -1,0 +1,41 @@
+input{
+    display: none;
+}
+label{
+    position: relative;
+    display:inline-block;
+    width: 50px;
+    height: 20px;
+    background-color:rgb(230,196,196);
+    border-radius: 10px;
+
+
+}
+label::before
+{
+ content: "";
+ display: block;
+position: absolute;
+width: 25px;
+height: 25px;
+background-color: white;
+border-radius: 50%;
+border: 2px solid red;
+top: -4.5px;
+left: 0;
+transform: 0.1s;
+}
+label::after
+{
+    content: ;
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+
+}
+input:checked + label::before
+{
+    left: 21px;
+    background-color: rgb(230,196,196);
+}

@@ -1,0 +1,10 @@
+.flex-container
+{
+    display: flex;
+    flex-direction:row;
+
+}
+.fle-iteam
+{
+    flex-basis: 100px;
+}
