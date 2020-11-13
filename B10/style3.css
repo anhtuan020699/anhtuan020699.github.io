@@ -1,0 +1,29 @@
+.contener
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 100px;
+    gap: 10px;
+}
+.item
+{
+    background-color: red;
+}
+@media (min-width :768px)
+{
+    .contener
+    {
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+@media (max-width :992px)
+{
+    .contener
+    {
+        grid-template-columns: 1fr 1fr;
+    }
+    .item:first-child
+    {
+        grid-area: 1/1/4/3;
+    }
+}

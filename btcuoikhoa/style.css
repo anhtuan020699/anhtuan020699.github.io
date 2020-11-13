@@ -1,0 +1,37 @@
+.a
+{
+    margin-left: 250px;
+}
+.b
+{
+    margin-left: 50px;
+}
+.c
+{
+    margin: 12px;
+}
+img {
+    display: block;
+    max-width:480px;
+    
+    width: auto;
+    height: auto;
+  }
+  
+h2
+{
+    text-align: center;
+    
+}
+.cangiua
+{
+    text-align: center;
+}
+.mausua
+{
+    background-color:rgb(248, 249,250);
+}
+p
+{
+    text-align: center;
+}

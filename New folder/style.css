@@ -1,0 +1,12 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 50px; */
+    grid-auto-rows: minmax(50px,auto)
+
+  }
+  
+  .grid-item1
+  {
+      
+  }
